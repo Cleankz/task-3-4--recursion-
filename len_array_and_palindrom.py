@@ -7,7 +7,6 @@ def len_of_list(inp_list,len_list = 0): # третье задание
     return len_of_list(inp_list, len_list + 1)
 
 def IsPalindrom(inp_str,start = 0, end = -1):# четвертое задание
-    no_space_str = inp_str.replace(" ", "")
     if no_space_str[start] != no_space_str[end]:
         return False
     if inp_str == '' or start == (len(no_space_str)/2):
